@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Stop Watch</title>
+</head>
+<body>
+    <!-- I created a container div for the stopwatch -->
+    <div class="container">
+
+        <!-- Created a div inside the container to display the stop watch count -->
+        <div id="timer">
+            00:00:00
+        </div>
+
+        <!-- Created a second div inside the container as a smaller conatainer for buttons -->
+        <div class="buttons">
+
+            <!-- start & stop button -->
+            <button id="startStopBtn">
+                <i class="fa fa-play" id="play"></i>
+            </button>
+
+            <!-- reset button -->
+            <button id="resetBtn">
+                <i class="fa fa-undo" id="reset"></i>
+            </button>
+        </div>
+    </div>
+    <script src="timer.js"></script>
+</body>
+</html>
